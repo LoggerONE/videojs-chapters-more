@@ -115,7 +115,10 @@ const chaptersMore = function(options) {
                   }
 
               }  
-
+              btnChaptersDom.ontouchstart = function(e){
+                e.preventDefault();
+                e.target.click();
+              }
 
           }
       }
