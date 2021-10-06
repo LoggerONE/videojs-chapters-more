@@ -131,10 +131,13 @@ function createChapterBox(player, item){
   chapterBox.className = 'box-chapter';
   var boxContent = document.createElement('div');;
   
-  var thumbnail = document.createElement('div');
-  thumbnail.className = 'chapter-thumbnail fl'
-  thumbnail.style.backgroundImage = "url('" + item.thumbnail + "')";
-  boxContent.appendChild(thumbnail);
+  if(typeof item.thumbnail != null){
+    var thumbnail = document.createElement('div');
+    thumbnail.className = 'chapter-thumbnail fl'
+    thumbnail.style.backgroundImage = "url('" + item.thumbnail + "')";
+    boxContent.appendChild(thumbnail);
+  }
+
 
   //define clear box
   var clearBox = document.createElement('div');
