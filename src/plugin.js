@@ -164,7 +164,7 @@ function createChapterBox(player, item){
   boxContent.appendChild(innerBox);
 
   switch(item.type){
-    case "text":
+    case "seeker":
       chapterBox.addEventListener( 'click', function(){
         player.currentTime(item.start);
       });      
