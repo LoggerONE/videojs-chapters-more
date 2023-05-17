@@ -1,0 +1,19 @@
+[
+    {
+        "index" : 2,
+        "type": "seeker",
+        "start": "022",
+        "label": "Chapter 2",
+        "thumbnail" : "https://mpvldhluuktv5373941.cdn.ntruss.com/logo/coursemos_logo.png",
+        "desc" : "챕터 2 설명 시작 합니다.!!!@#"
+    },
+    {
+        "index" : 4,
+        "type": "seeker",
+        "start": "060",
+        "label": "Chapter 4",
+        "target" : "_self",
+        "thumbnail" : "https://mpvldhluuktv5373941.cdn.ntruss.com/logo/coursemos_logo.png",
+        "desc" : "설명을 시작 합니다.!!"
+    }              
+]
